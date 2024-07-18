@@ -24,12 +24,12 @@ PC用のスタイル
   }
 
   /* SP用ナビゲーション非表示 */
-#menu-sp {
-  display: none;
-}
-#nav-sp {
-  display: none;
-}
+  #menu-sp {
+    display: none;
+  }
+  #nav-sp {
+    display: none;
+  }
 
   /* ヘッダー */
   header {
@@ -67,24 +67,28 @@ PC用のスタイル
     color: #0d0d0d;
   }
 }
+
 @media screen and (max-width: 767px) {
   /* スマートフォン用のスタイルを指定する */
-}
+
+
 body {
   min-width: 375px;
   margin: 0;
 }
 
-/* PC用ナビゲーション非表示 */
-#nav-pc {
-  display: none;
-}
+   /* PC用ナビゲーション非表示 */
+   #nav-pc {
+    display: none;
+  }
 
 /* ハンバーガーメニュー */
 #menu-sp {
   float: right;
   padding: 0;
 }
+
+
 
 #nav-sp {
   background-color: #ce933e;
@@ -133,4 +137,4 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
 }
-
+}
